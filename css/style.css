@@ -5,17 +5,44 @@
 }
 .menu ul{
     display: flex;
-    justify-content: center;
     list-style: none;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .menu ul li a {
   display: block;
   padding: 15px 20px;
   color: rgb(26, 24, 24);
   text-decoration: none;
-  transition: background 0.3s;
+  margin-top: 30px;
+  font-size: 19px;
+}
+.logo-menu img{
+    border-radius: 50%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.Entrar, .criarcont {
+    height: 50px;
+    width: 160px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.Entrar{
+    color: white;
+    background-color:#EE4C58;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.criarcont{
+    color: #EE4C58;
 }
 
-.menu ul li a:hover {
-  background-color: #575757;
-}
+
