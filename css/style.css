@@ -3,6 +3,13 @@
     padding: 0;
     border: 0;
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #fff;
+}
 .menu ul{
     display: flex;
     list-style: none;
