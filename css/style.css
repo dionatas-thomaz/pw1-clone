@@ -95,10 +95,34 @@ header {
 .busca button:hover {
   background-color: rgb(200, 25, 38);
 }
+.categorias-servicos1,.categorias-servicos2{
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 2%;
+}
+.categorias-servicos2{
+  gap: 6%;
+}
+.servece1,.servece2{
+  width: 22%;
+  height: 100%;
+  border-radius: 10px;
+}
+.servece1,.servece2{
+ background-color: #EE4C58;
+}
+.servece3,.servece4,.servece5{
+  width: 11%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #9ce22c;
+}
 
 @media (max-width: 768px) {
 
-.menu ul li a {
+.menu ul li a,.inicio {
   display: none;
 }
 
