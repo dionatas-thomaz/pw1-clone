@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: iFood RC Textos, helvetica, sans-serif;
+    font-size: 16px;
 }
 header {
   display: flex;
+  height: 50px;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -22,8 +26,7 @@ header {
   padding: 15px 20px;
   color: rgb(26, 24, 24);
   text-decoration: none;
-  margin-top: 30px;
-  font-size: 19px;
+  margin-top: 35px;
 }
 .logo-menu img{
     border-radius: 50%;
@@ -32,13 +35,11 @@ header {
     margin-top: 30px;
 }
 .Entrar, .criarcont {
-    height: 50px;
-    width: 160px;
+    height: 45px;
+    width: 130px;
     padding: 0 20px;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
     cursor: pointer;
     margin-top: 30px;
 }
@@ -49,6 +50,9 @@ header {
 }
 .criarcont{
     color: #EE4C58;
+    margin-right: 20px;
+    margin-left: 180px;
+    background-color: #fff;
 }
 
 
