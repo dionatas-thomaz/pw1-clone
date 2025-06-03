@@ -108,6 +108,8 @@ header {
 }
 .servece2{
   background-color: #B6D048;
+  text-align: center;
+  color: white;
 }
 .servece3,.servece4,.servece5{
   width: 13.5%;
@@ -120,10 +122,19 @@ header {
   padding-top: 20px;
   width: 70%;
 }
+
+.mercado{
+  display: flex;
+  padding-top: 20px; 
+  width: 70%;
+}
 .burg-img{
   transform: translate(60px, -18px);
 }
-.box1{
+.carrinho-img{
+  transform: translate(60px, 35px);
+}
+.box1, .box2{
   width: 480px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -132,6 +143,7 @@ header {
   margin-left: 9%;
   margin-top: 20%;
 }
+
 
 @media (max-width: 768px) {
 
@@ -177,4 +189,3 @@ header {
   transform: translate(10px, -38%);
 }
 }
-
