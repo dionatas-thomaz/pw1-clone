@@ -60,64 +60,77 @@ header {
 }
 .busca {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   padding: 1rem;
   margin-top: 3%;
+  gap: 10px;
 }
-
-.busca form {
-  display: flex;
-  gap: 0.5rem;
-  width: 100%;
-  max-width: 600px;
-}
-
-.busca input[type="search"] {
-  flex: 1;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
+ #Caixa-Pesquisa {
+  width: 20%;
+  height: 30px;
+  padding: 5px;
   border-radius: 5px;
+  border: 0;
+  background-color: #F5F5F5;
 }
-
-.busca button {
+#Buscar {
+  width: 6%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #e41d3e;
+  border: 0;
+  color: #F5F5F5;
+  font-size: 20px;
   cursor: pointer;
-  font-size: 1rem;
-  color: #fff;
-  background-color: rgb(234, 29, 44);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 0.75rem 1rem;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.busca button:hover {
-  background-color: rgb(200, 25, 38);
 }
 .categorias-servicos1,.categorias-servicos2{
   display: flex;
   height: 180px;
   justify-content: center;
-  gap: 1%;
   margin-top: 2%;
 }
+.categorias-servicos1{
+  gap: 3%;
+}
 .categorias-servicos2{
-  gap: 6%;
+  gap: 3%;
 }
 .servece1,.servece2{
   width: 22%;
   height: 100%;
   border-radius: 10px;
 }
-.servece1,.servece2{
- background-color: #EE4C58;
+.servece1{
+ background-color: #EA1D2C;
+ text-align: center;
+ color: white;
+}
+.servece2{
+  background-color: #B6D048;
 }
 .servece3,.servece4,.servece5{
-  width: 11%;
+  width: 13.5%;
   height: 100%;
   border-radius: 10px;
   background-color: #9ce22c;
+}
+.restaurante{
+  display: flex;
+  padding-top: 20px;
+  width: 70%;
+}
+.burg-img{
+  transform: translate(60px, -18px);
+}
+.box1{
+  width: 480px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 7px;
+  margin-left: 9%;
+  margin-top: 20%;
 }
 
 @media (max-width: 768px) {
@@ -125,6 +138,43 @@ header {
 .menu ul li a,.inicio {
   display: none;
 }
-
+.busca {
+  flex-direction: column;
+  align-items: center;
+}
+ #Caixa-Pesquisa {
+display: none;
+}
+#Buscar {
+  width: 98%;
+}
+.Entrar{
+  margin-right: 20px;
+}
+.criarcont{
+  display: none;
+}
+header {
+  justify-content: space-between;
+}
+.servece1,.servece2{
+  width: 42%;
+}
+.servece3,.servece4,.servece5{
+  width: 26.5%;
+  height: 60%;
+}
+.categorias-servicos1{
+  gap: 6%;
+}
+.categorias-servicos2{
+  gap: 5%;
+}
+.restaurante{
+  width: 95%;
+}
+.burg-img{
+  transform: translate(10px, -38%);
+}
 }
 
