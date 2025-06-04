@@ -54,7 +54,7 @@ header {
     background-color: #fff;
 }
 .inicio{
-    margin-top: 5%;
+    margin-top: 6%;
     text-align: center;
     color: #333;
 }
@@ -62,20 +62,24 @@ header {
   display: flex;
   justify-content:center;
   padding: 1rem;
-  margin-top: 3%;
+  margin-top: 4%;
   gap: 10px;
 }
  #Caixa-Pesquisa {
-  width: 20%;
-  height: 30px;
+  width: 52%;
+  height: 35px;
   padding: 5px;
   border-radius: 5px;
   border: 0;
   background-color: #F5F5F5;
 }
+.icons{
+  width: 1%;
+  margin-top: 1%;
+}
 #Buscar {
-  width: 6%;
-  height: 40px;
+  width: 10%;
+  height: 45px;
   border-radius: 5px;
   padding: 5px;
   background-color: #e41d3e;
@@ -86,66 +90,76 @@ header {
 }
 .categorias-servicos1,.categorias-servicos2{
   display: flex;
-  height: 180px;
+  height: 190px;
+  width: 100%;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
-.categorias-servicos1{
-  gap: 3%;
-}
-.categorias-servicos2{
+.categorias-servicos1,.categorias-servicos2{
   gap: 3%;
 }
 .servece1,.servece2{
-  width: 22%;
-  height: 100%;
-  border-radius: 10px;
+ color: white;
+ padding-left: 2%;
+ padding-top: 2%;
+ width: 29%;
+ height: 100%;
+ border-radius: 18px;
+}
+.text-Restaurantes,.text-Mercado{
+ font-size: 23px;
 }
 .servece1{
  background-color: #EA1D2C;
- text-align: center;
- color: white;
 }
 .servece2{
   background-color: #B6D048;
-  text-align: center;
-  color: white;
 }
 .servece3,.servece4,.servece5{
-  width: 13.5%;
+  width: 13.6%;
   height: 100%;
   border-radius: 10px;
   background-color: #9ce22c;
+  margin-top: 2%;
 }
 .restaurante{
   display: flex;
-  padding-top: 20px;
-  width: 70%;
+  padding-top: 19%;
 }
-
 .mercado{
   display: flex;
-  padding-top: 20px; 
-  width: 70%;
+  padding-top: 15.2%;
 }
 .burg-img{
-  transform: translate(60px, -18px);
+  transform: translate(0px, -18px);
+  width: 100vh;
 }
 .carrinho-img{
-  transform: translate(60px, 35px);
+  transform: translate(0px, -120%);
+  width: 100vh;
 }
 .box1, .box2{
-  width: 480px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.3);
-  text-align: center;
+  width: 100%;
+  height: 34px;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 7px;
-  margin-left: 9%;
-  margin-top: 20%;
+  margin-top: -32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2{
+  margin-top: -28%;
+}
+.restaurante,.mercado{
+  width: 95%;
+  margin-top: 125px;
+}
+.burg-img{
+  transform: translate(0px, -130%);
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 468px) {
 
 .menu ul li a,.inicio {
   display: none;
@@ -154,10 +168,13 @@ header {
   flex-direction: column;
   align-items: center;
 }
- #Caixa-Pesquisa {
-display: none;
+#Caixa-Pesquisa{
+  width: 95%;
 }
-#Buscar {
+.icons{
+  display: none;
+}
+#Buscar{
   width: 98%;
 }
 .Entrar{
@@ -175,6 +192,7 @@ header {
 .servece3,.servece4,.servece5{
   width: 26.5%;
   height: 60%;
+  margin-top: 5%;
 }
 .categorias-servicos1{
   gap: 6%;
@@ -182,10 +200,29 @@ header {
 .categorias-servicos2{
   gap: 5%;
 }
-.restaurante{
+.restaurante,.mercado{
   width: 95%;
+  height: auto;
+  display: block;
+  align-items: center;
+  margin-top: 75%;
 }
-.burg-img{
-  transform: translate(10px, -38%);
+.burg-img,.carrinho-img{
+  transform: translate(1px, -130%);
+  width: 16vh;
+}
+.carrinho-img{
+  transform: translate(12px, -120%);
+}
+
+.box1, .box2{
+  width: 80%;
+  height: 30px;
+  display: flex;
+  margin-left: 10%;
+}
+.text-Restaurantes,.text-Mercado{
+ font-size: 13px;
+ text-align: center;
 }
 }
