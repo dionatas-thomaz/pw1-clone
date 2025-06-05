@@ -25,7 +25,7 @@ header {
   color: rgb(26, 24, 24);
   text-decoration: none;
   margin-top: 35px;
-  font-size: 2vh;
+  font-size: 55%;
 }
 .logo-menu img{
     border-radius: 50%;
@@ -37,10 +37,10 @@ header {
     width: 8%;
     padding: 0 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 2%;
-    font-size: 2vh;
+    font-size: 65%;
 }
 .Entrar{
     color: white;
@@ -74,21 +74,20 @@ header {
   border-radius: 5px;
   border: 0;
   background-color: #F5F5F5;
-  font-size: 2vh;
+  font-size: 65%;;
 }
 .icons{
   width: 0.3%;
   margin-top: 0.5%;
 }
 #Buscar {
-  width: 6%;
-  height: 5vh;
+  width: 10%;
   border-radius: 5px;
   padding: 5px;
   background-color: #e41d3e;
   border: 0;
   color: #F5F5F5;
-  font-size: 20px;
+  font-size: 65%;
   cursor: pointer;
 }
 .categorias-servicos1,.categorias-servicos2{
@@ -110,7 +109,7 @@ header {
  border-radius: 18px;
 }
 .text-Restaurantes,.text-Mercado{
- font-size: 2.2vh;
+ font-size: 65%;
 }
 .servece1{
  background-color: #EA1D2C;
@@ -125,50 +124,23 @@ header {
   background-color: #9ce22c;
   margin-top: 1%;
 }
-.restaurante{
-  display: flex;
-  padding-top: 19%;
-}
-.mercado{
-  display: flex;
-  padding-top: 15.2%;
-}
-.burg-img{
-  transform: translate(0px, -17.4vh);
-  width: 80vh;
-}
-.carrinho-img{
-  transform: translate(0px, -17.4vh);
-  width: 80vh;
-}
 .box1, .box2{
-  width: 33vh;
-  height: 3vh;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 7px;
-  margin-top: -32%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.box2{
-  margin-top: -28%;
+  font-size: 55%;
+  height: 40px;
 }
 .restaurante,.mercado{
-  width: 95%;
-  margin-top: 125px;
+  display: flex;
 }
-@media (max-width: 2000px) {
+.text-Restaurantes{
+  display: flex;
+}
 .burg-img,.carrinho-img{
-  transform: translate(1px, -130%);
-  width: 16vh;
-}
-.carrinho-img{
-  transform: translate(12px, -120%);
-}
-.carrinho-img,.burg-img{
-  width: 80vh;
-}
+  width: 100vh;
 }
 @media (max-width: 468px) {
 
