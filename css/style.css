@@ -248,8 +248,7 @@ margin-right:6px;
 }
 .empu-mec{
   height: 4px;
-  width: 
-  100%;
+  width: 100%;
 }
 .logo-restaurante{
   border-radius: 50%;
@@ -258,7 +257,6 @@ width: 30%;
 .info-restaurante{
   margin-left: 5px;
 }
-
 .posicaorest{
   width: 50px;
   height: 30px;
@@ -266,6 +264,132 @@ width: 30%;
 .posicaoresthab{
   width: 70px;
   height: 30px;
+}
+.banner{
+  gap: 45px;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-banner{
+  width: 21.6%;
+  height: 110px;
+  border-radius: 5px;
+}
+.alinha-linha1{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.linha1{
+  margin-top: 30px;
+  width: 70%;
+  background-color:#F7F7F7 ;
+  height: 2px;
+}
+.text-melhor-rest{
+  font-size: 20px;
+}
+.lista-Mercados{
+  margin-top:28px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  font-size: 10px;
+}
+.mercados{
+width: 13%;
+height: 90%;
+border-radius: 10px;
+border: 1px solid #cac1c1;
+}
+.mercado-fant{
+  width: 250px;
+}
+.cartao-mercado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verificadoposi{
+height: 20px;
+}
+.empu-merc{
+  height: 4px;
+  width: 100%;
+}
+.logo-mercado{
+    border-radius: 50%;
+width: 30%;
+}
+.info-mercado{
+  margin-left: 5px;
+}
+.posicaomerc{
+  width: 90px;
+  height: 30px;
+}
+.img-fundo{
+  display: flex;
+  justify-content: center;
+}
+.saiba-mais{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.saiba-mais-text{
+  font-size: 25px;
+}
+.saiba-mais-text2{
+  margin-top: 25px;
+}
+.saiba-mais-btn{
+  margin-top: 20px;
+}
+.Saiba-Mais-botao{
+width: 150px;
+height: 40px;
+background-color: #e41d3e;
+color: white;
+border-radius: 8px;
+font-size: 20px;
+}
+.saiba-mais-conter1{
+  width: 22%;
+}
+.saiba-mais-conter2{
+  width: 50%;
+}
+.img-beneficios{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.foot-div{
+  margin-top: 40px;
+  width: 100%;
+  height: 80px;
+  background-color:#F2F2F2 ;
+}
+.ifood-descubra {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.ifood-descubra p {
+  margin-bottom: 26px;
+}
+.ifood,.Descubra,.social{
+  width: 25%;
+}
+.food,.desc,.soci{
+  font-weight: bold;
 }
 @media (max-width: 468px) {
 .menu ul li a,.inicio {
