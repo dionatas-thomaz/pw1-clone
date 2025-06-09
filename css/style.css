@@ -4,18 +4,19 @@
     border: 0;
     font-family: 'iFood RC Titulos', 'iFood RC Textos', Helvetica, sans-serif;
 }
+.fundo{
+  background-color: #F7F7F7;
+}
 header {
   display: flex;
-  height: 50px;
-  margin-top: 20px;
+  height: 15vh;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  font-size: 24px;
 }
 .menu ul{
     display: flex;
     list-style: none;
-    height: 100px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -25,114 +26,399 @@ header {
   padding: 15px 20px;
   color: rgb(26, 24, 24);
   text-decoration: none;
-  margin-top: 35px;
+  font-size: 55%;
 }
 .logo-menu img{
+  
     border-radius: 50%;
     display: flex;
-    margin-left: 20px;
-    margin-top: 30px;
 }
 .Entrar, .criarcont {
-    height: 45px;
-    width: 130px;
+    height: 30%;
+    width:100px;
     padding: 0 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 30px;
+    font-size: 45%;
 }
 .Entrar{
     color: white;
-    background-color:#EE4C58;
+    background-color:#e41d3e;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 .criarcont{
-    color: #EE4C58;
-    margin-right: 20px;
-    margin-left: 180px;
-    background-color: #fff;
+    color: #e41d3e;
+    margin-right: 1%;
+    margin-left: 5%;
+    background-color:#F7F7F7;
 }
 .inicio{
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
     color: #333;
+    font-size: 90%;
 }
 .busca {
   display: flex;
   justify-content:center;
-  padding: 1rem;
+  padding: 0.5%;
   margin-top: 3%;
-  gap: 10px;
+  gap: 0.5%;
+  width: 100%;
 }
  #Caixa-Pesquisa {
-  width: 20%;
+  width: 34%;
   height: 30px;
   padding: 5px;
   border-radius: 5px;
   border: 0;
-  background-color: #F5F5F5;
+  background-color: white;
+  font-size: 65%;;
+}
+.posiicon{
+  height: 30%;
+}
+.icons{
+  width: 10px;
 }
 #Buscar {
-  width: 6%;
-  height: 40px;
+  width: 100px;
   border-radius: 5px;
   padding: 5px;
   background-color: #e41d3e;
   border: 0;
   color: #F5F5F5;
-  font-size: 20px;
+  font-size: 65%;
   cursor: pointer;
 }
 .categorias-servicos1,.categorias-servicos2{
   display: flex;
-  height: 180px;
+  width: 100%;
+  height: auto;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
-.categorias-servicos1{
+.categorias-servicos1,.categorias-servicos2{
   gap: 3%;
 }
 .categorias-servicos2{
-  gap: 3%;
+   margin-top:0;
+   gap: 2%;
 }
-.servece1,.servece2{
-  width: 22%;
-  height: 100%;
-  border-radius: 10px;
+.service1,.service2{
+ color: white;
+ padding-left: 2%;
+ padding-top: 1%;
+ width: 18%;
+ border-radius: 18px;
 }
-.servece1{
+.text-Restaurantes,.text-Mercado{
+ font-size: 20px;
+}
+.service1{
  background-color: #EA1D2C;
 }
-.servece2{
+.service2{
   background-color: #B6D048;
 }
-.servece3,.servece4,.servece5{
-  width: 13.5%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: #9ce22c;
+.service3,.service4,.service5{
+  width: 14.6%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
 }
-.restaurante{
-  text-align: center;
-  padding-top: 20px;
-  color: white;
+.box1, .box2,.box3{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: 20%;
+  width: 100px;
 }
+.box3{
+height: 20px;
+background-color: white;
 
-@media (max-width: 768px) {
+}
+.restaurante,.mercado{
+  display: flex;
+}
+.ajuste1{
+  width: 100%;
+  height: 50%;
+}
+.ajuste2{
+  height: 10%;
+}
+.ajuste3{
+  height: 3%;
+}
+.ajustar4,.ajustar5,.ajustar6{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+.ajustar4{
+  background-color:#F6D553;
+}
+.ajustar5{
+  background-color: #F9879C;
+}
+.ajustar6{
+  background-color: #8C60C5;
+}
+.posi4{
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bebidas-img{
+height: 55px;
+}
+.farmacia-img{
+margin-left: 17.5px;
+height:30px;
+width: 70%;
+}
+.empur{
+width: 100%;
+height: 27px;
+}
+.empur-pet-img{
+height: 29px;
+}
+.pet-img{
+  height:28px;
+  width: 89%;
+}
+.alinhar-pet-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alinha-linha{
+  display: flex;
+  justify-content: center;
+}
+.linha{
+  margin-top: 30px;
+  width: 70%;
+  background-color:#F7F7F7 ;
+  height: 2px;
+}
+.melhor-rest{
+margin-top: 30px;
+  display: flex;
+  justify-content: left;
+}
+.ajuste-text-melhor-rest{
+  width: 15%;
+}
+.lista-restaurantes{
+  margin-top:28px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 10px;
+}
+.mec{
+width: 13%;
+height: 90%;
+border-radius: 10px;
+border: 1px solid #cac1c1;
 
+}.cartao-restaurante{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verificado{
+display: flex;
+height: 20px;
+justify-content:right;
+align-items: center;
+margin-right:6px;
+}
+.empu-mec{
+  height: 4px;
+  width: 100%;
+}
+.logo-restaurante{
+  border-radius: 50%;
+width: 30%;
+}
+.info-restaurante{
+  margin-left: 5px;
+}
+.posicaorest{
+  width: 50px;
+  height: 30px;
+}
+.posicaoresthab{
+  width: 70px;
+  height: 30px;
+}
+.banner{
+  gap: 45px;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-banner{
+  width: 21.6%;
+  height: 110px;
+  border-radius: 5px;
+}
+.alinha-linha1{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.linha1{
+  margin-top: 30px;
+  width: 70%;
+  background-color:#F7F7F7 ;
+  height: 2px;
+}
+.text-melhor-rest{
+  font-size: 20px;
+}
+.lista-Mercados{
+  margin-top:28px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  font-size: 10px;
+}
+.mercados{
+width: 13%;
+height: 90%;
+border-radius: 10px;
+border: 1px solid #cac1c1;
+}
+.mercado-fant{
+  width: 250px;
+}
+.cartao-mercado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verificadoposi{
+height: 20px;
+}
+.empu-merc{
+  height: 4px;
+  width: 100%;
+}
+.logo-mercado{
+    border-radius: 50%;
+width: 30%;
+}
+.info-mercado{
+  margin-left: 5px;
+}
+.posicaomerc{
+  width: 90px;
+  height: 30px;
+}
+.img-fundo{
+  display: flex;
+  justify-content: center;
+}
+.saiba-mais{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.saiba-mais-text{
+  font-size: 25px;
+}
+.saiba-mais-text2{
+  margin-top: 25px;
+}
+.saiba-mais-btn{
+  margin-top: 20px;
+}
+.Saiba-Mais-botao{
+width: 150px;
+height: 40px;
+background-color: #e41d3e;
+color: white;
+border-radius: 8px;
+font-size: 20px;
+}
+.saiba-mais-conter1{
+  width: 22%;
+}
+.saiba-mais-conter2{
+  width: 50%;
+}
+.img-beneficios{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.foot-div{
+  margin-top: 40px;
+  width: 100%;
+  height: 80px;
+  background-color:#F2F2F2 ;
+}
+.ifood-descubra {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.ifood-descubra p {
+  margin-bottom: 26px;
+}
+.ifood,.Descubra,.social{
+  width: 25%;
+}
+.food,.desc,.soci{
+  font-weight: bold;
+}
+@media (max-width: 468px) {
 .menu ul li a,.inicio {
   display: none;
 }
 .busca {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
- #Caixa-Pesquisa {
-display: none;
+.Entrar {
+    height: 30%;
+    width: 28%;
+    padding: 0 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 2vh;
 }
-#Buscar {
-  width: 98%;
+#Caixa-Pesquisa{
+  width: 90%;
+}
+.icons{
+  display: none;
+}
+#Buscar{
+  margin-top: 3%;
+  width: 93%;
 }
 .Entrar{
   margin-right: 20px;
@@ -143,12 +429,13 @@ display: none;
 header {
   justify-content: space-between;
 }
-.servece1,.servece2{
+.service1,.service2{
   width: 42%;
 }
-.servece3,.servece4,.servece5{
+.service3,.service4,.service5{
   width: 26.5%;
   height: 60%;
+  margin-top: 5%;
 }
 .categorias-servicos1{
   gap: 6%;
@@ -156,5 +443,29 @@ header {
 .categorias-servicos2{
   gap: 5%;
 }
+.restaurante,.mercado{
+  width: 95%;
+  height: auto;
+  display: block;
+  align-items: center;
+  margin-top: 75%;
+}
+.burg-img,.carrinho-img{
+  transform: translate(1px, -130%);
+  width: 16vh;
+}
+.carrinho-img{
+  transform: translate(12px, -120%);
 }
 
+.box1, .box2{
+  width: 80%;
+  height: 30px;
+  display: flex;
+  margin-left: 10%;
+}
+.text-Restaurantes,.text-Mercado{
+ font-size: 13px;
+ text-align: center;
+}
+}
